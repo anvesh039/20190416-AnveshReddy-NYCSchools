@@ -23,8 +23,8 @@ class NYCSDetailViewController: UITableViewController {
 }
 
 extension NYCSDetailViewController {
-    // MARK: - Table view data source
     
+    // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         CellAnimator.animate(cell, withDuration: 0.6, animation: CellAnimator.AnimationType(rawValue: 5)!)
     }
