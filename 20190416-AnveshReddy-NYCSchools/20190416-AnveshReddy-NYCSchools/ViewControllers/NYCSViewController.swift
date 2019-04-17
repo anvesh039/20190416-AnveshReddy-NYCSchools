@@ -10,8 +10,8 @@ import UIKit
 import MapKit
 
 class NYCSViewController: UIViewController {
-    // UI Components
     
+    // UI Components
     @IBOutlet var tableView: UITableView!
     
     // Variables
